@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">gerador_senhas</string>
+    <string name="gerar_senha">Gerar Nova Senha</string>
+    <string name="copiar_senha">Copiar Senha</string>
+    <string name="senha_gerada">asdasd</string>
+    <string name="letras_minusculas">1. Letras Minúsculas</string>
+    <string name="letras_maiusculas">2. Letras Maiúsculas</string>
+    <string name="numeros">3. Numeros</string>
+    <string name="caracteres_especiais">4. Caracteres Especiais</string>
+</resources>
