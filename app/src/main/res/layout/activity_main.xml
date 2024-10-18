@@ -59,12 +59,12 @@
         />
 
     <TextView
-        android:id="@+id/letras_maisculas"
+        android:id="@+id/letras_minusculas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/letras_minusculas"
+        app:layout_constraintBottom_toTopOf="@id/letras_maisculas"
 
         android:text="@string/letras_minusculas"
         android:textSize="18sp"
@@ -74,8 +74,18 @@
         android:layout_marginStart="50sp"
         />
 
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:thumbTint="@color/primary"
+
+        app:layout_constraintBottom_toBottomOf="@+id/letras_minusculas"
+        app:layout_constraintStart_toEndOf="@+id/letras_minusculas"
+        />
+
     <TextView
-        android:id="@+id/letras_minusculas"
+        android:id="@+id/letras_maisculas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
@@ -88,6 +98,16 @@
         android:layout_marginVertical="50sp"
         android:layout_marginEnd="80sp"
         android:layout_marginStart="50sp"
+        />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:thumbTint="@color/primary"
+
+        app:layout_constraintBottom_toBottomOf="@+id/letras_maisculas"
+        app:layout_constraintStart_toEndOf="@+id/letras_maisculas"
         />
 
     <TextView
@@ -106,6 +126,16 @@
         android:layout_marginStart="50sp"
         />
 
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:thumbTint="@color/primary"
+
+        app:layout_constraintBottom_toBottomOf="@+id/numeros"
+        app:layout_constraintStart_toEndOf="@+id/numeros"
+        />
+
     <TextView
         android:id="@+id/caracteres_especiais"
         android:layout_width="match_parent"
@@ -121,6 +151,16 @@
         android:layout_marginStart="50sp"
         android:layout_marginEnd="80sp"
         android:layout_marginBottom="150sp"
+        />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:thumbTint="@color/primary"
+
+        app:layout_constraintBottom_toBottomOf="@+id/caracteres_especiais"
+        app:layout_constraintStart_toEndOf="@+id/caracteres_especiais"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
