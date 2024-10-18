@@ -75,6 +75,7 @@
         />
 
     <Switch
+        android:id="@+id/switch_minusculas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
@@ -82,6 +83,7 @@
 
         app:layout_constraintBottom_toBottomOf="@+id/letras_minusculas"
         app:layout_constraintStart_toEndOf="@+id/letras_minusculas"
+        tools:ignore="UseSwitchCompatOrMaterialXml"
         />
 
     <TextView
@@ -101,6 +103,7 @@
         />
 
     <Switch
+        android:id="@+id/switch_maiusculas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
@@ -108,6 +111,7 @@
 
         app:layout_constraintBottom_toBottomOf="@+id/letras_maisculas"
         app:layout_constraintStart_toEndOf="@+id/letras_maisculas"
+        tools:ignore="UseSwitchCompatOrMaterialXml"
         />
 
     <TextView
@@ -127,6 +131,7 @@
         />
 
     <Switch
+        android:id="@+id/switch_numeros"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
@@ -134,6 +139,7 @@
 
         app:layout_constraintBottom_toBottomOf="@+id/numeros"
         app:layout_constraintStart_toEndOf="@+id/numeros"
+        tools:ignore="UseSwitchCompatOrMaterialXml"
         />
 
     <TextView
@@ -154,6 +160,7 @@
         />
 
     <Switch
+        android:id="@+id/switch_caracteres"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
@@ -161,6 +168,7 @@
 
         app:layout_constraintBottom_toBottomOf="@+id/caracteres_especiais"
         app:layout_constraintStart_toEndOf="@+id/caracteres_especiais"
+        tools:ignore="UseSwitchCompatOrMaterialXml"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
